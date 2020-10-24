@@ -1,11 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>hi1</h1>
-      <h2>hi2</h2>
+      <h1>
+        <Header />
+      </h1>
+      <h2>
+        <Texnologes />
+      </h2>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,6 +26,27 @@ function App() {
       </header>
     </div>
   );
-}
+};
+const Header = () => {
+  return (
+    <div>
+      <a>Home</a>
+      <a>Message</a>
+      <a>From</a>
+    </div>
+  );
+};
+
+const Texnologes = () => {
+  return (
+    <div>
+      <ul>
+        <li>techologiest3</li>
+        <li>techologiest2</li>
+        <li>techologiest1</li>
+      </ul>
+    </div>
+  );
+};
 
 export default App;
