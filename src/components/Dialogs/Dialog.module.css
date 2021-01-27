@@ -1,0 +1,56 @@
+.box__dialogs_item_active {
+  color: peru;
+}
+.box__dialogs_item:active {
+  color: brown;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.box__dialogs_item {
+  outline: none;
+  text-decoration: none;
+  font-size: larger;
+  color: rgb(4, 65, 136);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 7px;
+}
+
+.box__messages_item {
+  outline: none;
+  text-decoration: none;
+  color: rgb(147, 120, 245);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 7px;
+}
+.btnSend {
+  width: 80%;
+  padding: 10px;
+  color: rgb(147, 120, 245);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  outline: none;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 3px solid rgb(147, 120, 245);
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.btnSend:hover {
+  border: 2px solid rgb(241, 36, 36);
+  color: rgb(241, 36, 36);
+}
+
+.boxBtnSendMessage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}

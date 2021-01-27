@@ -1,35 +1,5 @@
 .app-wrapper {
-  display: grid;
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
-
-  grid-template-areas:
-    "header header"
-    "nav cont";
-}
-
-.headers {
-  grid-area: header;
-  background-color: rgba(79, 180, 248, 0.711);
-}
-.headers img {
-  width: 60px;
-  height: 60px;
-}
-.nav {
-  grid-area: nav;
-  background-color: rgba(79, 180, 248, 0.711);
-}
-.content {
-  grid-area: cont;
-  background-color: rgba(79, 180, 248, 0.999);
-}
-.content img {
+  background-color: rgb(227, 215, 253);
   width: 100%;
-  height: 400px;
-}
-.avatar img {
-  width: 100px;
-  height: 100px;
+  height: 100%;
 }

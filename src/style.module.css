@@ -1,0 +1,49 @@
+.headers {
+  width: 100%;
+  background-color: rgb(94, 110, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  margin-top: 60px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.header__logo_border {
+  color: rgb(18, 18, 39);
+  font-family: "Stalinist One", cursive;
+  border: 3px solid rgb(18, 18, 39);
+  padding: 10px;
+  text-align: center;
+  transition: all 1s;
+}
+
+.header__logo_item {
+  color: rgb(238, 5, 5);
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+
+.header__logo_border:hover {
+  cursor: pointer;
+  border: 3px solid orangered;
+  color: rgb(238, 5, 5);
+}
+.link {
+  text-decoration: none;
+}
+
+.box_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.id {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

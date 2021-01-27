@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.item img {
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.messag {
+  color: black;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 2px 2px 5px rgb(216, 114, 114);
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 30px;
+}
