@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/olegatorlelik/react-social-network/static/css/main.6c0be780.chunk.css",
+    "main.js": "/olegatorlelik/react-social-network/static/js/main.b4e09b1d.chunk.js",
+    "main.js.map": "/olegatorlelik/react-social-network/static/js/main.b4e09b1d.chunk.js.map",
+    "runtime-main.js": "/olegatorlelik/react-social-network/static/js/runtime-main.671e2a04.js",
+    "runtime-main.js.map": "/olegatorlelik/react-social-network/static/js/runtime-main.671e2a04.js.map",
+    "static/js/2.b49e2b58.chunk.js": "/olegatorlelik/react-social-network/static/js/2.b49e2b58.chunk.js",
+    "static/js/2.b49e2b58.chunk.js.map": "/olegatorlelik/react-social-network/static/js/2.b49e2b58.chunk.js.map",
+    "static/css/3.d2b906dc.chunk.css": "/olegatorlelik/react-social-network/static/css/3.d2b906dc.chunk.css",
+    "static/js/3.d5700982.chunk.js": "/olegatorlelik/react-social-network/static/js/3.d5700982.chunk.js",
+    "static/js/3.d5700982.chunk.js.map": "/olegatorlelik/react-social-network/static/js/3.d5700982.chunk.js.map",
+    "static/css/4.e328c77b.chunk.css": "/olegatorlelik/react-social-network/static/css/4.e328c77b.chunk.css",
+    "static/js/4.e5d67336.chunk.js": "/olegatorlelik/react-social-network/static/js/4.e5d67336.chunk.js",
+    "static/js/4.e5d67336.chunk.js.map": "/olegatorlelik/react-social-network/static/js/4.e5d67336.chunk.js.map",
+    "static/js/5.019a14d3.chunk.js": "/olegatorlelik/react-social-network/static/js/5.019a14d3.chunk.js",
+    "static/js/5.019a14d3.chunk.js.map": "/olegatorlelik/react-social-network/static/js/5.019a14d3.chunk.js.map",
+    "index.html": "/olegatorlelik/react-social-network/index.html",
+    "static/css/3.d2b906dc.chunk.css.map": "/olegatorlelik/react-social-network/static/css/3.d2b906dc.chunk.css.map",
+    "static/css/4.e328c77b.chunk.css.map": "/olegatorlelik/react-social-network/static/css/4.e328c77b.chunk.css.map",
+    "static/css/main.6c0be780.chunk.css.map": "/olegatorlelik/react-social-network/static/css/main.6c0be780.chunk.css.map",
+    "static/js/2.b49e2b58.chunk.js.LICENSE.txt": "/olegatorlelik/react-social-network/static/js/2.b49e2b58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.671e2a04.js",
+    "static/js/2.b49e2b58.chunk.js",
+    "static/css/main.6c0be780.chunk.css",
+    "static/js/main.b4e09b1d.chunk.js"
+  ]
+}
