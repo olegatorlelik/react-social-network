@@ -13,21 +13,24 @@ import {
   getIsFetching,
   getFollowingInProgres,
 } from "../redux/userSelectors";
-import User from "./User";
+
 import Loader from "../Comand/Loader";
 import { compose } from "redux";
 import { withAuthRedirect } from "../hoc/AuthRedirect";
+import Users from "./Users";
 class UsersContainer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   componentDidMount() {
-    this.props.setUserThunkCreator(this.props.currentPage, this.props.pageSize);
+    let { currentPage, pageSize } = this.props;
+    this.props.setUserThunkCreator(currentPage, pageSize);
   }
 
   onPageChange = (pageNumber) => {
-    this.props.setUserThunkCreator(pageNumber, this.props.pageSize);
+    const { pageSize } = this.props;
+    this.props.setUserThunkCreator(pageNumber, pageSize);
   };
 
   render() {
@@ -36,7 +39,7 @@ class UsersContainer extends React.Component {
         {this.props.isFetching ? (
           <Loader />
         ) : (
-          <User
+          <Users
             users={this.props.users}
             totalaUsersCount={this.props.totalaUsersCount}
             pageSize={this.props.pageSize}

@@ -111,6 +111,7 @@ export let setfollowingInProgres = (isFetching, userId) => {
   };
 };
 
+
 export const setUserThunkCreator = (currentPage, pageSize) => async (
   dispatch
 ) => {

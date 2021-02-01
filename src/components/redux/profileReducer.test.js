@@ -33,3 +33,5 @@ it("after deleting of message should be decrement ", () => {
 
   expect(newState.posts.length).toBe(3);
 });
+
+

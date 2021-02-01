@@ -19,7 +19,6 @@ const Paginator = ({
   let [portionNumber, setPortionNumber] = useState(1);
   let leftPortionPageNumber = (portionNumber - 1) * portionSize + 1;
   let rightPorionNumber = portionNumber * portionSize;
-
   return (
     <div className={classes.wrapper}>
       {portionNumber > 1 && (
@@ -34,18 +33,18 @@ const Paginator = ({
       <div>
         {arrPages
           .filter((p) => p >= leftPortionPageNumber && p <= rightPorionNumber)
-          .map((elem) => {
+          .map((p, index) => {
             return (
               <span
-                key={elem}
+                key={index}
                 onClick={(e) => {
-                  onPageChange(elem);
+                  onPageChange(p);
                 }}
                 className={`${classes.pages} ${
-                  currentPage === elem && classes.selectedPage
+                  currentPage === p && classes.selectedPage
                 }`}
               >
-                {elem}
+                {p}
               </span>
             );
           })}
